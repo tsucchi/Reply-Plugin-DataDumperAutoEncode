@@ -1,14 +1,21 @@
 # NAME
 
-Reply::Plugin::DataDumperAutoEncode - It's new $module
+Reply::Plugin::DataDumperAutoEncode - format and decode results using Data::Dumper::AutoEncode
 
 # SYNOPSIS
 
-    use Reply::Plugin::DataDumperAutoEncode;
+    ; in your .replyrc use following instead of [DataDumper]
+    [DataDumperAutoEncode]
 
 # DESCRIPTION
 
-Reply::Plugin::DataDumperAutoEncode is ...
+Reply::Plugin::DataDumperAutoEncode uses [Data::Dumper::AutoEncode](https://metacpan.org/pod/Data::Dumper::AutoEncode) to format and encode results.
+Results of [Data::Dumper](https://metacpan.org/pod/Data::Dumper) has decoded string, it is hard to read for human. Using this plugin
+instead of [Reply::Plugin::DataDumper](https://metacpan.org/pod/Reply::Plugin::DataDumper), results are automatically decoded and easy to read for human.
+
+# SEE ALSO
+
+[Reply::Plugin::DataDumper](https://metacpan.org/pod/Reply::Plugin::DataDumper), [Data::Dumper::AutoEncode](https://metacpan.org/pod/Data::Dumper::AutoEncode)
 
 # LICENSE
 

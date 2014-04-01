@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "format and decode results using Data::Dumper::AutoEncode",
    "author" : [
       "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
@@ -43,12 +43,15 @@
       },
       "runtime" : {
          "requires" : {
+            "Data::Dumper::AutoEncode" : "0",
+            "Reply::Plugin" : "0",
+            "parent" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0"
          }
       }
    },
