@@ -19,4 +19,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Takuya Tsuchida <takuya.tsuchida@gmail.com>
+Takuya Tsuchida <tsucchi@cpan.org>

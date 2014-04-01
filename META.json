@@ -1,7 +1,7 @@
 {
    "abstract" : "It's new $module",
    "author" : [
-      "Takuya Tsuchida <takuya.tsuchida@gmail.com>"
+      "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.13.0, CPAN::Meta::Converter version 2.140640",
@@ -53,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode/issues"
+      },
+      "homepage" : "https://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode.git",
+         "web" : "https://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode"
+      }
+   },
    "version" : "0.01"
 }
