@@ -13,6 +13,16 @@ Reply::Plugin::DataDumperAutoEncode uses [Data::Dumper::AutoEncode](https://meta
 Results of [Data::Dumper](https://metacpan.org/pod/Data::Dumper) has decoded string, it is hard to read for human. Using this plugin
 instead of [Reply::Plugin::DataDumper](https://metacpan.org/pod/Reply::Plugin::DataDumper), results are automatically decoded and easy to read for human.
 
+# METHODS
+
+## enable\_auto\_encode()
+
+enables auto encode. auto encode is enabled by default.
+
+## disable\_auto\_encode()
+
+disables auto encode
+
 # SEE ALSO
 
 [Reply::Plugin::DataDumper](https://metacpan.org/pod/Reply::Plugin::DataDumper), [Data::Dumper::AutoEncode](https://metacpan.org/pod/Data::Dumper::AutoEncode)
